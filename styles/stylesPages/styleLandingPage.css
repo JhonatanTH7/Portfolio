@@ -1,0 +1,18 @@
+/* COLOR FONDO VANTA #07192F */
+
+.landingPage {
+  height: 100vh;
+}
+
+.btnLandingPage {
+  color: #fff;
+  height: 40px;
+  width: 150px;
+  border-radius: 5px;
+  border-color: rgba(0, 255, 255, 0.616);
+  background: rgba(41, 63, 97, 0.473);
+}
+
+.btnLandingPage:hover {
+  background: rgb(62, 111, 151);
+}
