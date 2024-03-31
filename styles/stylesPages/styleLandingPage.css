@@ -2,6 +2,16 @@
 
 .landingPage {
   height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 5%;
+  gap: 10%;
+}
+
+.landingPage_introductionText {
+  width: 500px;
 }
 
 .btnLandingPage {
@@ -15,4 +25,8 @@
 
 .btnLandingPage:hover {
   background: rgb(62, 111, 151);
+}
+
+.landingPage_imgJhonatan {
+  height: 200px;
 }
