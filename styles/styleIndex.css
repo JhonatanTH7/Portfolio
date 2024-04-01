@@ -1,8 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 @import url(stylesPages/styleLandingPage.css);
+@import url(mediaQuery.css);
 
 :root {
-  --blue: rgb(0, 255, 255, 0.616);
+  --blue: rgba(0, 255, 255, 0.616);
   --blueVantaj: #07192f;
   --whiteFont: #fff;
 }
@@ -12,5 +13,36 @@
   margin: 0;
   padding: 0;
   margin-bottom: 0;
+  text-decoration: none;
   font-family: "Lato", sans-serif;
+}
+
+.navBar {
+  top: 0;
+  height: 80px;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  padding-left: 3%;
+  padding-right: 3%;
+  -webkit-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
+}
+
+.navBar_logo {
+  height: 100%;
+}
+
+.navBar_rightSide {
+  display: flex;
+  justify-content: end;
+  gap: 100px;
+}
+
+.navBar_sayHiContainer,
+.navBar_programmingContainer,
+.navBar_logoContainer {
+  height: 100%;
+  width: 80px;
 }
