@@ -72,9 +72,18 @@
   }
   .landingPage_leftSide,
   .landingPage_rightSide {
-    justify-content: center;
+    height: 250px;
     align-items: center;
     align-content: center;
+  }
+
+  .titleLandingPage {
+    font-size: 30px;
+    align-self: center;
+  }
+
+  .landingPage_introductionText {
+    font-size: 12px;
   }
 
   .landingPage_imgJhonatan {
