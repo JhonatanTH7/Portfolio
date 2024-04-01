@@ -1,15 +1,8 @@
-/* COLOR FONDO VANTA #07192F */
-
-:root {
-  --blue: rgb(0, 255, 255, 0.616);
-}
-
 .landingPage {
   height: 100vh;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  flex-wrap: wrap-reverse;
   padding: 5%;
 }
 .landingPage_leftSide,
@@ -32,7 +25,7 @@
 
 .titleLandingPage {
   letter-spacing: 2px;
-  color: #fff;
+  color: var(--whiteFont);
   font-size: 40px;
   font-weight: bold;
   width: max-content;
@@ -42,13 +35,13 @@
   width: 40vw;
   min-width: 300px;
   max-width: 600px;
-  color: #fff;
+  color: var(--whiteFont);
   letter-spacing: 1px;
   text-align: justify;
 }
 
 .btnLandingPage {
-  color: #fff;
+  color: var(--whiteFont);
   height: 40px;
   width: 150px;
   border-radius: 5px;
@@ -72,4 +65,19 @@
 }
 
 @media (max-width: 768px) {
+  .landingPage {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+  .landingPage_leftSide,
+  .landingPage_rightSide {
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+
+  .landingPage_imgJhonatan {
+    height: 200px;
+  }
 }
