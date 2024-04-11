@@ -51,7 +51,8 @@
 }
 
 .btnLandingPage:hover {
-  box-shadow: inset 250px 50px 0 0 var(--blue);
+  background: var(--blue);
+  /* box-shadow: inset 250px 50px 0 0 var(--blue); */
 }
 
 .landingPage_imgJhonatan {
