@@ -24,6 +24,7 @@ export function InyectNavBar(container) {
       alt="Logo"
       class="navBar_logo"
     />
+    <!-- <a href="#">Languages</a>
     <!-- <a href="#">Say Hi!</a> -->
   </div>
   </div>
