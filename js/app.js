@@ -1,33 +1,9 @@
+import { InyectVantaBirds } from "./vanta.js";
+import { InyectNavBar } from "./navBar.js";
+const vantaBirds = document.querySelector("#vantaBirds");
 const navBar = document.querySelector(".navBar");
 
 document.addEventListener("DOMContentLoaded", () => {
-  navBar.innerHTML = `
-  <div class="navBar_logoContainer">
-  <a href="../index.html"
-    ><img
-      src="../img/Logos/Monkey1NoBG.png"
-      alt="Logo"
-      class="navBar_logo"
-  /></a>
-</div>
-<div class="navBar_rightSide">
-  <div class="navBar_programmingContainer">
-    <img
-      src="../img/MonkeyCodingNoBG.png"
-      alt="Logo"
-      class="navBar_logo"
-    />
-    <!-- <a href="#">Languages</a>
-    <a href="#"> Projects </a> -->
-  </div>
-  <div class="navBar_sayHiContainer">
-    <img
-      src="../img/MonkeySayingHiNoBG.png"
-      alt="Logo"
-      class="navBar_logo"
-    />
-    <!-- <a href="#">Say Hi!</a> -->
-  </div>
-</div>
-    `;
+  InyectVantaBirds(vantaBirds);
+  InyectNavBar(navBar);
 });

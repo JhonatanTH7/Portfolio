@@ -17,6 +17,11 @@
     align-content: center;
   }
 
+  .landingPage_textContent {
+    justify-content: center;
+    align-items: center;
+  }
+
   .titleLandingPage {
     font-size: 30px;
     align-self: center;
