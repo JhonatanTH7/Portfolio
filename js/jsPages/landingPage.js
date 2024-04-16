@@ -7,6 +7,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
 btnLandingPage.addEventListener("click", (event) => {
   event.preventDefault;
-  window.location = "../pages/sayHi.html";
+  window.location = "../../pages/projects.html";
 });
-mouseover
+mouseover;
