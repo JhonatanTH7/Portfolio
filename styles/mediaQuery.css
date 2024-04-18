@@ -9,6 +9,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column-reverse;
+    padding: 0;
   }
   .landingPage_leftSide,
   .landingPage_rightSide {
