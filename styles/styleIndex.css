@@ -44,7 +44,7 @@
 .navBar_rightSide {
   display: flex;
   justify-content: end;
-  gap: 100px;
+  gap: 70px;
 }
 
 .navBar_sayHiContainer,
@@ -73,6 +73,10 @@
 
 .sayHiMenu {
   width: 130px;
+  display: inline-flexbox;
+  justify-content: end;
+  align-items: end;
+  text-align: end;
 }
 
 .programmingMenu {
@@ -84,6 +88,7 @@
   width: 75px;
   color: var(--whiteFont);
   font-size: 15px;
+  text-align: start;
 }
 
 .dropDownMenu li a {
