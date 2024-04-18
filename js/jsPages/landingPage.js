@@ -9,4 +9,3 @@ btnLandingPage.addEventListener("click", (event) => {
   event.preventDefault;
   window.location = "../../pages/projects.html";
 });
-mouseover;
