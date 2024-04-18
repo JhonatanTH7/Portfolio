@@ -13,10 +13,17 @@ export function InyectNavBar(container) {
     <img
       src="../img/MonkeyCodingNoBG.png"
       alt="Logo"
-      class="navBar_logo"
+      class="navBar_logo programmingLogo"
     />
+    <div class="containerDropDownMenu programmingMenu">
+    <ul class="dropDownMenu">
+      <li>
+        <a class="dropDownItem" href="projects.html">Projects</a>
+      </li>
+    </ul>
   </div>
-  <div class="navBar_sayHiContainer">
+  </div>
+  <div class="navBar_sayHiContainer sayHiMenu">
     <img
       src="../img/MonkeySayingHiNoBG.png"
       alt="Logo"
