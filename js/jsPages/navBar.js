@@ -15,17 +15,27 @@ export function InyectNavBar(container) {
       alt="Logo"
       class="navBar_logo"
     />
-    <!-- <a href="#">Languages</a>
-    <a href="#"> Projects </a> -->
   </div>
   <div class="navBar_sayHiContainer">
     <img
       src="../img/MonkeySayingHiNoBG.png"
       alt="Logo"
-      class="navBar_logo"
+      class="navBar_logo sayHiLogo"
     />
-    <!-- <a href="#">Languages</a>
-    <!-- <a href="#">Say Hi!</a> -->
+    <div class="containerDropDownMenu">
+    <ul class="dropDownMenu">
+      <li>
+        <a class="dropDownItem" href="#">Language</a>
+        <ul class="dropDownSubMenu">
+          <li><a class="Flag" href=""><img src="../img/Flags/Spain-Flag.png" alt="Spain-Flag" /></a></li>
+          <li><a class="Flag" href=""><img src="../img/Flags/USA-Flag.png" alt="USA-Flag" /></a></li>
+        </ul>
+      </li>
+      <li>
+        <a class="dropDownItem" href="sayHi.html">Say Hi!</a>
+      </li>
+    </ul>
+  </div>
   </div>
   </div>
     `;
