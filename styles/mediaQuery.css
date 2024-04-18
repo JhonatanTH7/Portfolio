@@ -12,9 +12,10 @@
   }
   .landingPage_leftSide,
   .landingPage_rightSide {
-    height: 250px;
     align-items: center;
     align-content: center;
+    padding-top: 30px;
+    justify-content: start !important;
   }
 
   .landingPage_textContent {
