@@ -1,1 +1,62 @@
 @import url(../styleIndex.css);
+
+#vantaBirds {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+.sayHiPage {
+  height: 80vh;
+  width: 90vw;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+.sayHiPage_socialMediaLogos {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  gap: 20px;
+  height: 60px;
+  bottom: 300px;
+}
+
+.sayHiPage_socialMediaLogos a {
+  height: 60px;
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid var(--blue);
+  border-radius: 5px;
+}
+
+.phoneLogo {
+  height: 50px;
+}
+
+.linkedinLogo {
+  height: 60px;
+}
+
+.linkedinLogo:hover {
+  height: 80px;
+}
+
+.containerPhoneLogo:hover .phoneLogo {
+  display: none;
+}
+.containerPhoneLogo:hover {
+  background-image: url(../../img/Gifs/iconPhoneGif.gif);
+  background-repeat: no-repeat;
+  background-size: 60px;
+}
+
+.whatsappLogo:hover,
+.gmailLogo:hover,
+.githubLogo:hover {
+  height: 70px;
+}
