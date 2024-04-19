@@ -7,11 +7,12 @@
 }
 
 .sayHiPage {
-  height: 80vh;
+  height: 70vh;
   width: 90vw;
   display: flex;
   justify-content: center;
   align-items: end;
+  background-color: black;
 }
 
 .sayHiPage_socialMediaLogos {

@@ -54,13 +54,22 @@
   width: 80px;
 }
 
+.spainFlag {
+  border-bottom: 2px solid var(--blue);
+}
+
+.Flag {
+  height: 100%;
+  width: 100%;
+}
+
 .Flag img {
-  height: 30px;
-  width: 30px;
+  height: 40px;
+  width: 40px;
+  margin: 5px;
 }
 
 .sayHiMenu {
-  display: inline-flexbox;
   text-align: end;
 }
 
@@ -77,8 +86,8 @@
 }
 
 .dropDownMenu {
-  display: none;
   width: 90px;
+  display: none;
 }
 .dropDownMenu li {
   width: min-content;
@@ -90,24 +99,46 @@
   color: var(--whiteFont);
   font-size: 15px;
   text-align: start;
-  padding: 2px 5px;
-  border: 2px solid var(--blue);
-  border-radius: 5px;
+  padding: 6px 8px;
   display: inline-block;
   color: var(--whiteFont);
 }
 
+.dropDownSubMenu,
+.dropDownMenu {
+  border: 2px solid var(--blue);
+  border-radius: 5px;
+}
+
 .dropDownSubMenu {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  position: absolute;
+  top: 10px;
+  right: 110px;
   float: left;
   display: none;
 }
 
-.dropDownMenu li:hover > .dropDownSubMenu {
-  display: block;
+.arrowLanguages {
+  width: 25px;
+  position: absolute;
+  right: -25px;
+  color: var(--blue);
+  font-size: 30px;
+  font-weight: 900;
+  text-align: center;
+}
+
+.dropDownMenu li:hover > .dropDownSubMenu,
+.dropDownSubMenu:hover > .dropDownSubMenu,
+.arrowLanguages:hover > .dropDownSubMenu {
+  display: flex;
 }
 
 .sayHiLogo:hover + .containerDropDownMenu .dropDownMenu,
-.containerDropDownMenu:hover .dropDownMenu {
+.sayHiMenu:hover .dropDownMenu {
   display: block;
 }
 

@@ -34,7 +34,8 @@ export function InyectNavBar(container) {
       <li>
         <a class="dropDownItem" href="#">Language</a>
         <ul class="dropDownSubMenu">
-          <li><a class="Flag" href=""><img src="../img/Flags/Spain-Flag.png" alt="Spain-Flag" /></a></li>
+          <p class="arrowLanguages"><</p>
+          <li><a class="Flag spainFlag" href=""><img src="../img/Flags/Spain-Flag.png" alt="Spain-Flag" /></a></li>
           <li><a class="Flag" href=""><img src="../img/Flags/USA-Flag.png" alt="USA-Flag" /></a></li>
         </ul>
       </li>
