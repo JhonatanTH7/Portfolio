@@ -23,13 +23,13 @@ export function InyectNavBar(container) {
     </ul>
   </div>
   </div>
-  <div class="navBar_sayHiContainer sayHiMenu">
+  <div class="navBar_sayHiContainer">
     <img
       src="../img/MonkeySayingHiNoBG.png"
       alt="Logo"
       class="navBar_logo sayHiLogo"
     />
-    <div class="containerDropDownMenu">
+    <div class="containerDropDownMenu sayHiMenu">
     <ul class="dropDownMenu">
       <li>
         <a class="dropDownItem" href="#">Language</a>
