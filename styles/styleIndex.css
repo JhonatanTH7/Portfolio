@@ -39,6 +39,7 @@
   padding-left: 3%;
   padding-right: 3%;
   padding-bottom: 3px;
+  box-shadow: 0 0 10px rgba(4, 232, 217, 0.372);
 }
 
 .navBar_logo {
@@ -139,11 +140,13 @@
 
 .dropDownItem:hover,
 .Flag:hover {
+  box-shadow: 0 0 18px rgba(4, 232, 217, 0.372);
   background-color: var(--blueTransparent);
 }
 
 .languageItem.hovered {
   background-color: var(--blueTransparent);
+  box-shadow: 0 0 18px rgba(4, 232, 217, 0.372);
 }
 .dropDownMenu li:hover > .dropDownSubMenu,
 .dropDownSubMenu:hover > .dropDownSubMenu,

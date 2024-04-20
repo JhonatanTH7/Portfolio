@@ -52,6 +52,7 @@
 
 .btnLandingPage:hover {
   background: var(--blue);
+  box-shadow: 0 0 18px rgba(4, 232, 217, 0.372);
 }
 
 .landingPage_imgJhonatan {
@@ -61,4 +62,5 @@
   border-radius: 5px;
   -webkit-user-select: none;
   user-select: none;
+  box-shadow: 0 0 20px rgba(4, 232, 217, 0.372);
 }
