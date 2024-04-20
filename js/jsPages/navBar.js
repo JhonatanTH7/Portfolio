@@ -32,7 +32,7 @@ export function InyectNavBar(container) {
     <div class="containerDropDownMenu sayHiMenu">
     <ul class="dropDownMenu">
       <li>
-        <a class="dropDownItem" href="#">Language</a>
+        <a class="dropDownItem languageItem" href="#">Language</a>
         <ul class="dropDownSubMenu">
           <p class="arrowLanguages"><</p>
           <li><a class="Flag spainFlag" href=""><img src="../img/Flags/Spain-Flag.png" alt="Spain-Flag" /></a></li>
