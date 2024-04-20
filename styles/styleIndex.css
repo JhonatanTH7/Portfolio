@@ -24,6 +24,8 @@
 }
 
 .navBar {
+  position: relative;
+  z-index: 10;
   background: rgba(0, 255, 255, 0.03);
   top: 0;
   height: 80px;
@@ -31,7 +33,7 @@
   display: flex;
   justify-content: space-between;
   border-bottom: 2px solid var(--blue);
-  position: absolute;
+  position: fixed;
   padding-left: 3%;
   padding-right: 3%;
   padding-bottom: 3px;
