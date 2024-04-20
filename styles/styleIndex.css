@@ -28,7 +28,7 @@
 
 .navBar {
   position: absolute;
-  z-index: 10;
+  z-index: 100;
   background: rgba(0, 255, 255, 0.03);
   top: 0;
   height: 80px;
@@ -141,11 +141,11 @@
 .dropDownItem:hover,
 .Flag:hover {
   box-shadow: 0 0 18px rgba(4, 232, 217, 0.372);
-  background-color: var(--blueTransparent);
+  background-color: var(--blueScrollBar);
 }
 
 .languageItem.hovered {
-  background-color: var(--blueTransparent);
+  background-color: var(--blueScrollBar);
   box-shadow: 0 0 18px rgba(4, 232, 217, 0.372);
 }
 .dropDownMenu li:hover > .dropDownSubMenu,
