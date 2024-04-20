@@ -61,7 +61,6 @@
   border-radius: 5px;
   border-color: var(--blue);
   background: var(--blueTransparent);
-  transition: ease 0.7s;
 }
 
 .btnFrontend:hover,
