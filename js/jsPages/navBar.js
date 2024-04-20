@@ -47,4 +47,16 @@ export function InyectNavBar(container) {
   </div>
   </div>
     `;
+
+  document
+    .querySelector(".dropDownSubMenu")
+    .addEventListener("mouseover", function () {
+      document.querySelector(".languageItem").classList.add("hovered");
+    });
+
+  document
+    .querySelector(".dropDownSubMenu")
+    .addEventListener("mouseout", function () {
+      document.querySelector(".languageItem").classList.remove("hovered");
+    });
 }
