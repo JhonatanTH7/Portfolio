@@ -1,7 +1,6 @@
 @import url(../styleIndex.css);
 
 #vantaBirds {
-  display: flex;
   justify-content: center;
   align-items: end;
   overflow: hidden;
@@ -14,7 +13,6 @@
   display: flex;
   justify-content: center;
   align-items: end;
-  background-color: black;
 }
 
 .sayHiPage_socialMediaLogos {

@@ -1,5 +1,5 @@
-import { InyectVantaBirds } from "./jsPages/vanta.js";
-import { InyectNavBar } from "./jsPages/navBar.js";
+import { InyectVantaBirds } from "./vanta.js";
+import { InyectNavBar } from "./navBar.js";
 const vantaBirds = document.querySelector("#vantaBirds");
 const navBar = document.querySelector(".navBar");
 

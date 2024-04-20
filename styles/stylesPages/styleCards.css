@@ -4,23 +4,25 @@
 }
 
 .page-content {
-  position: relative;
-  height: 80%;
-  width: 70%;
   display: flex;
   flex-wrap: wrap;
-  gap: 30px;
-  margin: 80px;
+  justify-content: center;
+  align-items: start;
+  height: 68vh;
+  min-height: 385px;
+  width: 55%;
+  gap: 25px;
+  padding-bottom: 30px;
+  overflow-y: scroll;
 }
 
 .card {
   position: relative;
   display: flex;
-  align-items: flex-end;
   overflow: hidden;
+  text-align: center;
   height: 300px;
   width: 230px;
-  text-align: center;
   color: var(--whiteFont);
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.1),
     0 4px 4px rgba(0, 0, 0, 0.1), 0 8px 8px rgba(0, 0, 0, 0.1),
@@ -70,19 +72,6 @@
   transform: translateY(-50%);
   transition: transform calc(var(--d) * 2) var(--e);
 }
-.card:nth-child(1):before {
-  background-image: url(../../img/BannersCards/BannerDigitalNomads.png);
-  background-size: cover;
-}
-.card:nth-child(2):before {
-  background-image: url(https://images.unsplash.com/photo-1533903345306-15d1c30952de?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ);
-}
-.card:nth-child(3):before {
-  background-image: url(https://images.unsplash.com/photo-1545243424-0ce743321e11?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ);
-}
-.card:nth-child(4):before {
-  background-image: url(https://images.unsplash.com/photo-1531306728370-e2ebd9d7bb99?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ);
-}
 
 .content {
   position: relative;
@@ -109,23 +98,20 @@
 }
 
 .btn {
-  cursor: pointer;
-  margin-top: 1.5rem;
-  padding: 0.75rem 1.5rem;
-  font-size: 0.65rem;
-  font-weight: bold;
-  letter-spacing: 0.025rem;
-  text-transform: uppercase;
-  color: white;
-  background-color: black;
-  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--whiteFont);
+  height: 40px;
+  width: 150px;
+  border-radius: 5px;
+  border: 2px solid var(--blue);
+  background: rgba(0, 255, 255, 0.113);
+  box-shadow: inset 0 0 0 0 var(--blue);
+  transition: ease 0.7s;
 }
 .btn:hover {
-  background-color: #0d0d0d;
-}
-.btn:focus {
-  outline: 1px dashed yellow;
-  outline-offset: 3px;
+  background: var(--blue);
 }
 
 @media (hover: hover) and (min-width: 300px) {
