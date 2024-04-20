@@ -118,8 +118,6 @@
 }
 
 /* and (min-width: 300px) */
-
-@media (hover: hover) {
   .card:after {
     transform: translateY(0);
   }
@@ -162,4 +160,4 @@
   .card:focus-within .content > *:not(.title) {
     transition-duration: 0s;
   }
-}
+
