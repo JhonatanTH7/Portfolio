@@ -7,10 +7,10 @@
       "imageUrl": "../../img/BannersCards/BannerDigitalNomads.png"
     },
     {
-      "name": "Coming soon!",
-      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitaemollitia corrupti, ea optio, deleniti sed dolorum adipisciquaerat, fugiat corporis libero non ex labore autem. Animi atque ut ullam laudantium mollitia repudiandae asperiores eum.",
-      "url": "https://digitalnomadshotels.netlify.app/",
-      "imageUrl": "https://images.unsplash.com/photo-1533903345306-15d1c30952de?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ"
+      "name": "Space X",
+      "description": "Explore our website for a concise summary of past SpaceX launches, all pulled from an API. Dive into mission launches, rockets and results. Relive the excitement of SpaceX's historic missions in just a few clicks!",
+      "url": "https://spacex-jth.netlify.app",
+      "imageUrl": "../../img/BannersCards/BannerSpaceX.png"
     },
     {
       "name": "Coming soon!",
