@@ -35,4 +35,23 @@
   .landingPage_imgJhonatan {
     height: 200px;
   }
+
+  /* PROJECTS PAGE */
+  .projectsBottomContentContainer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .projectsLeftContent P {
+    font-size: 15px;
+    width: 80vw;
+  }
+
+  .filterProjectsContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5px;
+  }
 }

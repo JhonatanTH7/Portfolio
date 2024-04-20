@@ -1,10 +1,6 @@
 @import url(../styleIndex.css);
 @import url(styleCards.css);
 
-#vantaBirds {
-  position: fixed;
-}
-
 .projectsPage {
   height: 100%;
   width: 100%;
@@ -12,15 +8,16 @@
 }
 
 .projectsBottomContentContainer {
+  position: relative;
   display: flex;
-  align-self: end;
+  top: 25%;
   height: 70vh;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 
 .projectsLeftContent {
   display: flex;
-  align-items: center;  
+  align-items: center;
   flex-direction: column;
   gap: 30px;
   width: 35vw;
@@ -33,10 +30,9 @@
 
 .filterProjectsContainer {
   display: flex;
-  flex-wrap: wrap;
   justify-self: center;
   justify-content: space-evenly;
-  width: 100%;
+  width:max-content;
   max-width: 300px;
   gap: 10px;
 }
