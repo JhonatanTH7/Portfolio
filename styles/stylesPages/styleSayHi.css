@@ -25,7 +25,8 @@
   bottom: 300px;
 }
 
-.sayHiPage_socialMediaLogos a {
+.sayHiPage_socialMediaLogos a,
+.sayHiPage_socialMediaLogos button {
   height: 60px;
   width: 60px;
   display: flex;
@@ -33,6 +34,7 @@
   align-items: center;
   border: 2px solid var(--blue);
   border-radius: 5px;
+  background: transparent;
 }
 
 .phoneLogo {
@@ -60,4 +62,29 @@
 .gmailLogo:hover,
 .githubLogo:hover {
   height: 70px;
+}
+
+.modal-content {
+  background-color: var(--blueTransparent);
+  color: var(--whiteFont);
+  backdrop-filter: blur(10px);
+}
+
+.form-control,
+.form-control:focus {
+  background-color: var(--blueScrollBar);
+}
+
+.form-floating > .form-control:focus ~ label::after,
+.form-floating > .form-control:focus ~ label,
+.form-floating > .form-control:not(:placeholder-shown) ~ label,
+.form-floating > .form-control:not(:placeholder-shown) ~ label::after {
+  background: transparent;
+  color: var(--whiteFont);
+}
+
+.btn-close {
+  border-color: var(--whiteFont);
+  color: var(--whiteFont);
+  background-color: var(--whiteFont);
 }
