@@ -12,6 +12,34 @@ document.addEventListener("DOMContentLoaded", () => {
   getData("Frontend");
 });
 
+btnBackend.addEventListener("click", (event) => {
+  event.preventDefault();
+  if (!btnBackend.classList.contains("btnOn")) {
+    clean();
+    btnFrontend.classList.remove("btnOn");
+    btnBackend.classList.toggle("btnOn");
+    getData("Backend");
+  }
+});
+
+btnFrontend.addEventListener("click", (event) => {
+  event.preventDefault();
+  if (!btnFrontend.classList.contains("btnOn")) {
+    clean();
+    btnBackend.classList.remove("btnOn");
+    btnFrontend.classList.toggle("btnOn");
+    getData("Frontend");
+  }
+});
+
+function clean() {
+  Array.from(cardsContainer.children).forEach((child) => {
+    if (!child.classList.contains("shadow")) {
+      cardsContainer.removeChild(child);
+    }
+  });
+}
+
 async function getData(category) {
   const url = "../../data/projects/projects.json";
   try {
@@ -48,30 +76,4 @@ async function getData(category) {
   } catch (error) {
     console.error(error);
   }
-}
-
-btnBackend.addEventListener("click", (event) => {
-  event.preventDefault();
-  clean();
-  if (!btnBackend.classList.contains("Backend")) {
-    btnBackend.classList.toggle("btnOn");
-  }
-  getData("Backend");
-});
-
-btnFrontend.addEventListener("click", (event) => {
-  event.preventDefault();
-  clean();
-  if (!btnFrontend.classList.contains("Frontend")) {
-    btnFrontend.classList.toggle("btnOn");
-  }
-  getData("Frontend");
-});
-
-function clean() {
-  Array.from(cardsContainer.children).forEach((child) => {
-    if (!child.classList.contains("shadow")) {
-      cardsContainer.removeChild(child);
-    }
-  });
 }

@@ -65,10 +65,12 @@
 
 .btnFrontend:hover,
 .btnBackend:hover {
-  background: var(--blue);
+  box-shadow: 0 0 18px rgba(4, 232, 217, 0.372);
+  background-color: var(--blueScrollBar);
 }
 
 .btnOn {
+  box-shadow: 0 0 18px rgba(4, 232, 217, 0.372);
   background: var(--blue);
 }
 
