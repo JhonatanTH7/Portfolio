@@ -4,6 +4,7 @@ const vantaBirds = document.querySelector("#vantaBirds");
 const navBar = document.querySelector(".navBar");
 const btn = document.getElementById("buttonFormEmailJS");
 const form = document.getElementById("form");
+const btnClose = document.querySelector(".btn-close");
 
 document.addEventListener("DOMContentLoaded", () => {
   InyectVantaBirds(vantaBirds);
@@ -22,10 +23,13 @@ form.addEventListener("submit", function (event) {
     () => {
       btn.value = "Send Email";
       alert("Sent!");
+      setTimeout(() => {
+        btnClose.click();
+      }, 1500);
     },
     (err) => {
       btn.value = "Send Email";
-      alert(JSON.stringify(err));
+      alert("Ooops, something went wrong :( " + JSON.stringify(err));
     }
   );
   form.reset();

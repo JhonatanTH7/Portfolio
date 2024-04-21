@@ -88,9 +88,9 @@ ul {
   color: var(--whiteFont);
 }
 
-input:-webkit-autofill,
-input:-webkit-autofill:hover,
-input:-webkit-autofill:focus {
+.form-control:-webkit-autofill,
+.form-control:-webkit-autofill:hover,
+.form-control:-webkit-autofill:focus {
   -webkit-box-shadow: 0 0 0px 1000px rgb(0, 170, 255) inset;
 }
 
