@@ -68,12 +68,18 @@
   background: var(--blue);
 }
 
+.btnOn {
+  background: var(--blue);
+}
+
 .shadow {
   height: 68vh;
   min-height: 385px;
   width: 60%;
   position: absolute;
   top: 0;
+  right: 3%;
+  margin-right: 15px;
   border-radius: 8px;
   box-shadow: inset 0px 20px 30px -3px rgb(0, 0, 0),
     inset 0px -20px 30px -3px rgb(0, 0, 0);
