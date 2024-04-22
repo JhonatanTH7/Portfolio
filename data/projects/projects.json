@@ -2,7 +2,7 @@
   "Frontend": [
     {
       "name": "Digital Nomads",
-      "description": "Discover top-notch accommodations tailored for digital nomads. Find high-speed internet, inspiring workspaces, and ideal settings to work and explore the world. Maximize productivity while living your best digital nomad life!",
+      "description": "Discover top notch accommodations tailored for digital nomads. Find high speed internet, inspiring workspaces, and ideal settings to work and explore the world. Maximize productivity while living your best digital nomad life!",
       "url": "https://digitalnomadshotels.netlify.app/",
       "imageUrl": "../../img/BannersCards/BannerDigitalNomads.png"
     },
