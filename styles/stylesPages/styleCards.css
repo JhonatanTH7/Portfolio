@@ -6,6 +6,7 @@
   height: 68vh;
   min-height: 385px;
   width: 65vw;
+  min-width: 300px;
   gap: 25px;
   padding-top: 30px;
   padding-left: 15px;
@@ -34,10 +35,9 @@
   text-align: center;
   height: 300px;
   width: 230px;
-  min-width: 230px;
   color: var(--whiteFont);
   border-radius: 5px;
-  box-shadow: 0 0 18px rgba(4, 232, 217, 0.372);
+  box-shadow: 0 0 18px var(--blue);
 }
 
 .card:before {
@@ -100,7 +100,7 @@
 }
 
 .title {
-  font-size: 1.3rem;
+  font-size: 21;
   font-weight: bold;
   line-height: 1.2;
 }
@@ -168,4 +168,19 @@
 .card:focus-within .content,
 .card:focus-within .content > *:not(.title) {
   transition-duration: 0s;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .page-content {
+    
+  }
+  .card {
+    width: 200px;
+    height: 270px;
+  }
+
+  .copy {
+    font-size: 12px;
+  }
 }
