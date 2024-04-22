@@ -4,7 +4,7 @@
   justify-content: center;
   align-items: center;
   height: 68vh;
-  min-height: 385px;
+  min-height: 325px;
   width: 65vw;
   min-width: 300px;
   gap: 25px;
@@ -173,8 +173,9 @@
 /* MOBILE */
 @media (max-width: 768px) {
   .page-content {
-    
+    height: 47vh;
   }
+
   .card {
     width: 200px;
     height: 270px;
@@ -182,5 +183,11 @@
 
   .copy {
     font-size: 12px;
+  }
+}
+
+@media (max-width: 740px) {
+  .card {
+    transform: translateX(14px);
   }
 }

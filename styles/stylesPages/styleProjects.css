@@ -1,5 +1,5 @@
 @import url(../styleIndex.css);
-@import url(styleCards.css);
+@import url(specificStyles/styleCardsProjects.css);
 
 .projectsPage {
   height: 100%;
@@ -11,7 +11,7 @@
 .projectsBottomContentContainer {
   position: relative;
   top: 80px;
-  margin-top: 10vh;
+  padding-top: 10vh;
   display: flex;
   justify-content: center;
   height: 100vh;
@@ -82,11 +82,11 @@
 
 .shadow {
   height: 68vh;
-  min-height: 385px;
+  min-height: 325px;
   width: 62vw;
   min-width: 280px;
   position: absolute;
-  top: 0;
+  top: 10vh;
   border-radius: 8px;
   box-shadow: inset 0px 20px 30px -3px rgb(0, 0, 0),
     inset 0px -20px 30px -3px rgb(0, 0, 0);
@@ -100,6 +100,7 @@
   .projectsBottomContentContainer {
     flex-direction: column;
     align-items: center;
+    justify-content: start;
     height: 100vh;
   }
 
@@ -129,5 +130,16 @@
 
   .textMobileView {
     display: block;
+  }
+
+  .shadow {
+    height: 47vh;
+    top: auto;
+  }
+}
+
+@media (max-width: 740px) {
+  .shadow {
+    transform: translateX(12px);
   }
 }

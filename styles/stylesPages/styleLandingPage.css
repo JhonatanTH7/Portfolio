@@ -64,3 +64,36 @@
   user-select: none;
   box-shadow: 0 0 20px rgba(4, 232, 217, 0.372);
 }
+
+@media (max-width: 768px) {
+  .landingPage {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+  .landingPage_leftSide,
+  .landingPage_rightSide {
+    align-items: center;
+    align-content: center;
+    padding-top: 30px;
+    justify-content: start !important;
+  }
+
+  .landingPage_textContent {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .titleLandingPage {
+    font-size: 30px !important;
+    align-self: center;
+  }
+
+  .landingPage_introductionText {
+    font-size: 12px;
+  }
+
+  .landingPage_imgJhonatan {
+    height: 200px;
+  }
+}
