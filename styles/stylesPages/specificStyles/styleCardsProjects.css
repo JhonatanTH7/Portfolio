@@ -88,25 +88,37 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-between;
+  height: 100%;
   width: 100%;
-  padding: 1rem;
   transition: 0.8s;
   z-index: 1;
-  backdrop-filter: blur(3px);
 }
 
-.content > * + * {
-  margin-top: 1rem;
+.title,
+.copy,
+.btn {
+  padding-right: 1rem;
+  padding-left: 1rem;
 }
 
 .title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 21;
   font-weight: bold;
-  line-height: 1.2;
+  width: 100%;
+  height: 66px;
+  backdrop-filter: blur(4px);
 }
 
 .copy {
+  display: flex;
+  align-items: center;
   font-size: 15px;
+  width: 100%;
+  height: 162px;
 }
 
 .btn {
@@ -116,6 +128,8 @@
   color: var(--whiteFont);
   height: 40px;
   width: 150px;
+  margin-top: 16px;
+  margin-bottom: 16px;
   border-radius: 5px;
   border: 2px solid var(--blue);
   background: var(--blueTransparent);
@@ -131,12 +145,13 @@
 }
 
 .content {
-  transform: translateY(calc(100% - 4.5rem));
+  transform: translateY(234px);
 }
+
 .content > *:not(.title) {
   opacity: 0;
   transform: translateY(1rem);
-  transition: transform 700ms cubic-bezier(1, 0.8, 0.8, 0.6),
+  transition: transform 700ms cubic-bezier(0.1, 0.4, 0.7, 1),
     opacity 500ms cubic-bezier(1, 1, 1, 1);
 }
 
@@ -144,18 +159,28 @@
 .card:focus-within {
   align-items: center;
 }
+
 .card:hover:before,
 .card:focus-within:before {
   transform: translateY(-4%);
+  backdrop-filter: blur(4px);
 }
+
+.card:hover .title,
+.card:focus-within .title {
+  backdrop-filter: blur(0px);
+}
+
 .card:hover:after,
 .card:focus-within:after {
   transform: translateY(-50%);
 }
+
 .card:hover .content,
 .card:focus-within .content {
   transform: translateY(0);
 }
+
 .card:hover .content > *:not(.title),
 .card:focus-within .content > *:not(.title) {
   opacity: 1;
@@ -183,6 +208,11 @@
 
   .copy {
     font-size: 12px;
+    height: 132px;
+  }
+
+  .content {
+    transform: translateY(204px);
   }
 }
 
