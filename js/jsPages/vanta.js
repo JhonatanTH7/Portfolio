@@ -3,7 +3,7 @@ export function InyectVantaBirds(container) {
     el: container,
     mouseControls: true,
     touchControls: true,
-    gyroControls: true,
+    gyroControls: false,
     minHeight: 200.0,
     minWidth: 200.0,
     scale: 1.0,

@@ -4,6 +4,7 @@ const vantaBirds = document.querySelector("#vantaBirds");
 const navBar = document.querySelector(".navBar");
 const btnBackend = document.querySelector(".btnBackend");
 const btnFrontend = document.querySelector(".btnFrontend");
+const btnFullStack = document.querySelector(".btnFullstack");
 const cardsContainer = document.querySelector(".page-content");
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -15,8 +16,8 @@ document.addEventListener("DOMContentLoaded", () => {
 btnBackend.addEventListener("click", (event) => {
   event.preventDefault();
   if (!btnBackend.classList.contains("btnOn")) {
-    clean();
     btnFrontend.classList.remove("btnOn");
+    btnFullStack.classList.remove("btnOn");
     btnBackend.classList.toggle("btnOn");
     getData("Backend");
   }
@@ -25,10 +26,20 @@ btnBackend.addEventListener("click", (event) => {
 btnFrontend.addEventListener("click", (event) => {
   event.preventDefault();
   if (!btnFrontend.classList.contains("btnOn")) {
-    clean();
     btnBackend.classList.remove("btnOn");
+    btnFullStack.classList.remove("btnOn");
     btnFrontend.classList.toggle("btnOn");
     getData("Frontend");
+  }
+});
+
+btnFullStack.addEventListener("click", (event) => {
+  event.preventDefault();
+  if (!btnFullStack.classList.contains("btnOn")) {
+    btnFrontend.classList.remove("btnOn");
+    btnBackend.classList.remove("btnOn");
+    btnFullStack.classList.toggle("btnOn");
+    getData("Fullstack");
   }
 });
 
@@ -41,6 +52,7 @@ function clean() {
 }
 
 async function getData(category) {
+  clean();
   const url = "../../data/projects/projects.json";
   try {
     const answer = await fetch(url);

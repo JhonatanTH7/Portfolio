@@ -52,15 +52,13 @@
 
 .filterProjectsContainer {
   display: flex;
-  justify-self: center;
-  justify-content: space-evenly;
   width: max-content;
-  max-width: 300px;
   gap: 10px;
 }
 
 .btnFrontend,
-.btnBackend {
+.btnBackend,
+.btnFullstack {
   color: var(--whiteFont);
   height: 30px;
   width: 100px;
@@ -70,7 +68,8 @@
 }
 
 .btnFrontend:hover,
-.btnBackend:hover {
+.btnBackend:hover,
+.btnFullstack:hover {
   box-shadow: 0 0 18px rgba(4, 232, 217, 0.372);
   background-color: var(--blueScrollBar);
 }
@@ -116,12 +115,14 @@
 
   .projectsLeftContent P,
   .btnBackend,
-  .btnFrontend {
+  .btnFrontend,
+  .btnFullstack {
     font-size: 10px;
   }
 
   .btnBackend,
-  .btnFrontend {
+  .btnFrontend,
+  .btnFullstack {
     width: 60px;
   }
   .textDesktopView {
@@ -135,6 +136,14 @@
   .shadow {
     height: 47vh;
     top: auto;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1090px) {
+  .btnBackend,
+  .btnFrontend,
+  .btnFullstack {
+    width: 70px;
   }
 }
 
