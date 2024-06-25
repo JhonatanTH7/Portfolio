@@ -14,10 +14,11 @@
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
     />
+    <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
     <title>Say Hi!</title>
   </head>
   <body>
-    <div id="vantaBirds">
+    <div id="particles-js">
       <nav transition-style="in:circle:center" class="navBar"></nav>
       <div
         class="modal"
@@ -157,8 +158,6 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.birds.min.js"></script>
     <script type="module" src="../js/jsPages/sayHi.js"></script>
     <script
       type="text/javascript"
@@ -170,6 +169,11 @@
           publicKey: "bpY--4MZBU2Tw0SSL",
         });
       })();
+    </script>
+    <script>
+      particlesJS.load("particles-js", "../particles.json", function () {
+        console.log("particles.js loaded - callback");
+      });
     </script>
   </body>
 </html>

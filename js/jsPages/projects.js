@@ -1,6 +1,4 @@
-import { InyectVantaBirds } from "./vanta.js";
 import { InyectNavBar } from "./navBar.js";
-const vantaBirds = document.querySelector("#vantaBirds");
 const navBar = document.querySelector(".navBar");
 const btnBackend = document.querySelector(".btnBackend");
 const btnFrontend = document.querySelector(".btnFrontend");
@@ -8,7 +6,6 @@ const btnFullStack = document.querySelector(".btnFullstack");
 const cardsContainer = document.querySelector(".page-content");
 
 document.addEventListener("DOMContentLoaded", () => {
-  // InyectVantaBirds(vantaBirds);
   InyectNavBar(navBar);
   getData("Frontend");
 });

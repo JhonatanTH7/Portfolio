@@ -1,13 +1,10 @@
-import { InyectVantaBirds } from "./vanta.js";
 import { InyectNavBar } from "./navBar.js";
-const vantaBirds = document.querySelector("#vantaBirds");
 const navBar = document.querySelector(".navBar");
 const btn = document.getElementById("buttonFormEmailJS");
 const form = document.getElementById("form");
 const btnClose = document.querySelector(".btn-close");
 
 document.addEventListener("DOMContentLoaded", () => {
-  // InyectVantaBirds(vantaBirds);
   InyectNavBar(navBar);
 });
 
