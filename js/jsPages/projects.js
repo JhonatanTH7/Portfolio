@@ -8,7 +8,7 @@ const btnFullStack = document.querySelector(".btnFullstack");
 const cardsContainer = document.querySelector(".page-content");
 
 document.addEventListener("DOMContentLoaded", () => {
-  InyectVantaBirds(vantaBirds);
+  // InyectVantaBirds(vantaBirds);
   InyectNavBar(navBar);
   getData("Frontend");
 });
