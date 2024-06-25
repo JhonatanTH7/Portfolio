@@ -2,7 +2,7 @@ import { InyectVantaBirds } from "./vanta.js";
 const btnLandingPage = document.querySelector(".btnLandingPage");
 
 document.addEventListener("DOMContentLoaded", () => {
-  // InyectVantaBirds(vantaBirds);
+  InyectVantaBirds(vantaBirds);
 });
 
 btnLandingPage.addEventListener("click", (event) => {

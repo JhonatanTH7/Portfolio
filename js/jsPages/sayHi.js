@@ -7,7 +7,7 @@ const form = document.getElementById("form");
 const btnClose = document.querySelector(".btn-close");
 
 document.addEventListener("DOMContentLoaded", () => {
-  // InyectVantaBirds(vantaBirds);
+  InyectVantaBirds(vantaBirds);
   InyectNavBar(navBar);
 });
 
