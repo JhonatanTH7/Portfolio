@@ -3,7 +3,7 @@ export function InyectNavBar(container) {
   <div class="navBar_logoContainer">
   <a href="../index.html"
     ><img
-      src="../img/Logos/Monkey1NoBG.png"
+      src="../img/Logos/Monkey1NoBG.avif"
       alt="Logo"
       class="navBar_logo"
   /></a>
@@ -11,7 +11,7 @@ export function InyectNavBar(container) {
   <div class="navBar_rightSide">
   <div class="navBar_programmingContainer">
     <img
-      src="../img/MonkeyCodingNoBG.png"
+      src="../img/MonkeyCodingNoBG.avif"
       alt="Logo"
       class="navBar_logo programmingLogo"
     />
@@ -25,7 +25,7 @@ export function InyectNavBar(container) {
   </div>
   <div class="navBar_sayHiContainer">
     <img
-      src="../img/MonkeySayingHiNoBG.png"
+      src="../img/MonkeySayingHiNoBG.avif"
       alt="Logo"
       class="navBar_logo sayHiLogo"
     />
