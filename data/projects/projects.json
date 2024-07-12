@@ -4,13 +4,13 @@
       "name": "Digital Nomads",
       "description": "Discover top notch accommodations tailored for digital nomads. Find high speed internet, inspiring workspaces, and ideal settings to work and explore the world. Maximize productivity while living your best digital nomad life!",
       "url": "https://digitalnomadshotels.netlify.app/",
-      "imageUrl": "../../img/BannersCards/BannerDigitalNomads.png"
+      "imageUrl": "../../img/BannersCards/BannerDigitalNomads.avif"
     },
     {
       "name": "Space X",
       "description": "Explore our website for a concise summary of past SpaceX launches, all pulled from an API. Dive into mission launches, rockets and results. Relive the excitement of SpaceX's historic missions in just a few clicks!",
       "url": "https://spacex-jth.netlify.app",
-      "imageUrl": "../../img/BannersCards/BannerSpaceX.png"
+      "imageUrl": "../../img/BannersCards/BannerSpaceX.avif"
     },
     {
       "name": "Coming soon!",
