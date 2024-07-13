@@ -61,14 +61,15 @@ ul {
   height: 80px;
 }
 
-.containerPhoneLogo:hover .phoneLogo {
+/* .containerPhoneLogo:hover .phoneLogo {
   display: none;
 }
+  
 .containerPhoneLogo:hover {
   background-image: url(../../img/Gifs/iconPhoneGif.gif);
   background-repeat: no-repeat;
   background-size: 60px;
-}
+} */
 
 .whatsappLogo:hover,
 .gmailLogo:hover,
